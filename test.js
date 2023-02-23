@@ -1,16 +1,47 @@
-function sum(x,y){
-    console.log(x+y)
+var a = 23;
+var b = 47;
+var c = 89;
+var d = 64;
+
+function sum(a,b){
+  var sum = (a+b);
+  return sum;
+  console.log(a + b);
 }
-sum(137659, 980543);
-function subtract(x,y){
-    console.log(x-y)
+sum(a,b);
+
+function subtract(a,d){
+  var subtract = (a-d);
+  return subtract;
+  console.log(a - d);
 }
-subtract(3452, 1267);
-function multiply(x,y){
-    console.log(x*y)
+subtract(a,d);
+
+function product(b,c){
+  var product = (b*c);
+  return product;
+  console.log(b * c);
 }
-multiply(234, 678);
-function divide(x,y){
-    console.log(x/y)
+product(b,c);
+
+function divide(b,d){
+  var divide = (b/d);
+  return divide;
+  console.log(b / d);
 }
-divide(642, 4);
+divide(b,d);
+
+function increment(a){
+  var increment = (a++);
+  return increment;
+  console.log(a);
+}
+increment(a);
+
+function decrement(d){
+  var decrement = (d--);
+  return decrement;
+  console.log(d);
+}
+decrement(d);
+
